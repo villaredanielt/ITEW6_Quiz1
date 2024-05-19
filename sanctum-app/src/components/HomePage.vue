@@ -7,7 +7,7 @@
     </div>
     <h1>HomePage</h1>
     <ul>
-      <li v-for="(post, index) in this.posts ":key="post">{{ post.title }}</li>
+      <li v-for= "post in this.posts" :key="post">{{ post.title }}</li>
     </ul>
   </nav>
   <!-- the router view is where all the routes are rendered -->
