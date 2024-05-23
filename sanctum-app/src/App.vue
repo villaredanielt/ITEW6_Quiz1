@@ -1,9 +1,13 @@
+
 <template>
-  <!-- the router view is where all the routes are rendered -->
+
+<!-- the router view is where all the routes are rendered -->
   <router-view/>
 </template>
 
 <script>
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default {
   name: 'App',
   data() {
