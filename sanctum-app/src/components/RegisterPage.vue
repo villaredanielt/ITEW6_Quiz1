@@ -17,6 +17,8 @@
         <input type="password" class="form-control" id="confirm" v-model="confirm" placeholder="Confirm Password" required>
       </div>
       <button type="submit" class="btn btn-primary mt-3 w-100">Register</button>
+      <router-link to="/" class="btn btn-primary mt-3 w-100">Back to Login</router-link>
+
     </form>
   </div>
 </template>
